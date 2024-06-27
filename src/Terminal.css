@@ -1,0 +1,13 @@
+.terminal-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .chart-container {
+    width: 600px;
+    height: 400px;
+  }
+  
