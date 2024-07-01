@@ -1,0 +1,79 @@
+/* ScatterPlotModal.css */
+.modal-content {
+  width: 700px;
+  height: 600px;
+  padding: 0;
+  background: white;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 1.25em;
+}
+
+.modal-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal-buttons button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #555;
+  padding: 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.modal-buttons button:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.modal-buttons button:focus {
+  outline: none;
+}
+
+.chart-container {
+  width: 100%;
+  height: calc(100% - 50px); /* Adjust based on the header size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Specific styles for icons */
+.minimize-button svg,
+.maximize-button svg,
+.close-button svg {
+  width: 16px;
+  height: 16px;
+  fill: #555;
+}
+
+.minimize-button:hover svg,
+.maximize-button:hover svg,
+.close-button:hover svg {
+  fill: #000;
+}
