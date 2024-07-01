@@ -8,7 +8,6 @@ const App = () => {
     <div className="app-container">
       <h1>Data Analytics Terminal</h1>
       <TerminalComponent />
-      <ChartComponent data={[]} />
     </div>
   );
 };
